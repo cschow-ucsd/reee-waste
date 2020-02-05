@@ -1,0 +1,15 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reee-waste-test-121542-authRole",
+            "UnauthRoleArn": "arn:aws:iam::055653408301:role/amplify-reee-waste-test-121542-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::055653408301:role/amplify-reee-waste-test-121542-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-reee-waste-test-121542-deployment",
+            "UnauthRoleName": "amplify-reee-waste-test-121542-unauthRole",
+            "StackName": "amplify-reee-waste-test-121542",
+            "StackId": "arn:aws:cloudformation:us-west-2:055653408301:stack/amplify-reee-waste-test-121542/49c56f30-4854-11ea-840c-027d1647825c",
+            "AmplifyAppId": "d2e10ii5uxtlke"
+        }
+    }
+}
