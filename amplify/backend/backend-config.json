@@ -20,19 +20,26 @@
 					]
 				}
 			]
+		},
+		"reeewasteef07dc16CustomMessage": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true
 		}
 	},
-	"api": {
-		"rwapi": {
-			"service": "API Gateway",
+	"api": {},
+	"auth": {
+		"reeewasteef07dc16": {
+			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [
 				{
 					"category": "function",
-					"resourceName": "apitest",
+					"resourceName": "reeewasteef07dc16CustomMessage",
+					"triggerProvider": "Cognito",
 					"attributes": [
-						"Name",
-						"Arn"
+						"Arn",
+						"Name"
 					]
 				}
 			]

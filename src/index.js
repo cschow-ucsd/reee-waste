@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './app/App';
 import * as serviceWorker from './serviceWorker';
+import Amplify  from "@aws-amplify/core";
+import config from "./config.js";
+
+Amplify.configure({
+    Auth: {
+        mandatorySignIn: true,
+        region: "", // TODO: add region
+        userPoolId: 
+    }
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

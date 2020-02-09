@@ -10,6 +10,18 @@
             "StackName": "amplify-reee-waste-test-121542",
             "StackId": "arn:aws:cloudformation:us-west-2:055653408301:stack/amplify-reee-waste-test-121542/49c56f30-4854-11ea-840c-027d1647825c",
             "AmplifyAppId": "d2e10ii5uxtlke"
+        },
+        "categories": {
+            "function": {
+                "reeewasteef07dc16CustomMessage": {
+                    "REDIRECTURL": "localhost:8080/dashboard",
+                    "EMAILSUBJECT": "Confirm Your reee-waste Email Address",
+                    "EMAILMESSAGE": "Confirm your email by clicking the following link."
+                }
+            },
+            "auth": {
+                "reeewasteef07dc16": {}
+            }
         }
     }
 }
